@@ -7,10 +7,14 @@ var num = prompt ("Your Number: ");
 numInt = Number (num);
 
 var word = prompt ("Your word: ");
-var result = word[numInt];
+var result = word[numInt-1];
+
+var topla = result;
 
 if (word.length > numInt) {
-for (var i = 1; i <= numInt; i++){
-    alert (result);
+    for (var i = 1; i < numInt; i++){
+        topla = topla + result;
+    }
 }
-}
+
+alert (topla);
