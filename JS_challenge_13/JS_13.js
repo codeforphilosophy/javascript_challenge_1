@@ -11,6 +11,6 @@ var result = word[numInt];
 
 if (word.length > numInt) {
 for (var i = 1; i <= numInt; i++){
-    alert (result = word[numInt]);
+    alert (result);
 }
 }
