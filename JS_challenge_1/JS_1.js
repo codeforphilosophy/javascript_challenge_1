@@ -10,4 +10,4 @@ var userNum = prompt ("enter your number...")
 for (var i = 1; i <= userNum; i++) {
     numSum = numSum + i;
 }
- alert (numSum);
+alert (numSum);
