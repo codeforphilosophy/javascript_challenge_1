@@ -15,3 +15,13 @@ for (var i = 1; i < str.length; i++){
 }
 
 alert (result);
+
+// -----------------------------------
+
+var result= "";
+
+for (var i = 0; i < str.length; i++){
+    result = result + str; 
+}
+
+alert (result);

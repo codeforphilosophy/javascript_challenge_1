@@ -7,8 +7,12 @@ var num = prompt ("Y0ur Number ?");
 var result = 1;
 
 for (var i = 1; i <= num; i++) {
-
-result =  result * i;
+    result = result * i;
 }
 
 alert (result);
+
+
+// for (var i = 2; i <= num; i++) {
+//     result = result * i;
+// }

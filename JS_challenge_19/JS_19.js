@@ -6,12 +6,13 @@
 
 var str = prompt ("word of the day?");
 
-var mid = str[str.length/2-0.5];
-
 if (str.length % 2 ==0) {
     alert ("verilen stringin uzunlugu tek deyil!");
 }
 
 else {
+    var mid = str[str.length/2-0.5];
     alert (mid);
 }
+
+// Sesi dedi ki cok hakliyim

@@ -9,3 +9,22 @@ var userNumber = prompt ("Your Number")
 var result = (userNumber * userNumber * userNumber) - (userNumber * userNumber)
 
 alert (result)
+
+
+
+// --------------------------------------------
+
+// alert ((userNumber * userNumber * userNumber) - (userNumber * userNumber))
+
+// --------------------------------------------
+// var ededinKubu = 1
+// for (let i = 0; i < 3; i++) {
+//     ededinKubu = ededinKubu * userNumber;
+// }
+
+// var ededinKvadrati = 1
+// for (let i = 0; i < 2; i++) {
+//     ededinKvadrati = ededinKvadrati * userNumber;
+// }
+
+// alert(ededinKubu - ededinKvadrati)

@@ -11,6 +11,6 @@ var result = 0;
 for (var i = 1; i <= numInt; i++) {
     var yeniEded = prompt(i + " ci ededi giriniz...");
     yeniEdedInt = Number(yeniEded);
-    result= result + yeniEdedInt;
+    result = result + yeniEdedInt;
 }
 alert(result/numInt);

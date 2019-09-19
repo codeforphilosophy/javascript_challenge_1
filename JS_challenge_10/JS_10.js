@@ -23,3 +23,18 @@ else {
     alert (result);
 }
 
+
+
+var result = 0;
+if (numNint > numMint) {
+    for (var i = numMint-1; i < numNint; i++){
+        result = result + i;
+    }
+}
+else {
+    for (var i = numNint-1; i < numMint; i++){
+        result = result + i;
+    }
+}
+
+alert (result);

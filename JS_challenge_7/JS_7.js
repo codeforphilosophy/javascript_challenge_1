@@ -7,3 +7,6 @@ var numN = prompt ("your  Number N");
 var numM = prompt ("your  Number M");
 var result= (numN - numM) * (numN - numM);
 alert (result);
+
+
+// alert ((numN - numM) * (numN - numM));

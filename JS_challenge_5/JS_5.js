@@ -7,10 +7,9 @@ var num = 7;
 var result = 1;
 
 for (var i = 1; i <= num; i++) {
-    if ( i % 2 ===1) {
-
-result =  result * i;
-}
+    if ( i % 2 === 1) {       
+        result = result * i;
+    }
 }
 
 console.log (result);

@@ -18,3 +18,28 @@ if (word.length > numInt) {
 }
 
 alert (topla);
+//=======================================
+
+var word = prompt ("Your word: ");
+var result = word[numInt-1];
+
+if (word.length > numInt) {
+    for (var i = 1; i < numInt; i++){
+        result = result + word[numInt-1];
+    }
+}
+
+alert (result);
+
+//=======================================
+
+var word = prompt ("Your word: ");
+var result = "";
+
+if (word.length > numInt) {
+    for (var i = 1; i <= numInt; i++){
+        result = result + word[numInt-1];
+    }
+}
+
+alert (result);

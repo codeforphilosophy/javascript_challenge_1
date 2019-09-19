@@ -10,7 +10,13 @@ var lastL = str[str.length-1];
 
 var result = lastL;
 
-for (var i = str.length; i>=1; i--) {
+for (var i = str.length; i>1; i--) {
     result = result + lastL;
 }
 console.log (result);
+
+// var result = "";
+// for (var i = 0; i< str.length; i++) {
+//     result = result + lastL;
+    
+// }

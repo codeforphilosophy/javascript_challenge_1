@@ -11,3 +11,5 @@ numMint = Number (numM);
 var result = (numMint + numNint) / 2;
 
 alert (result);
+
+// alert( (numMint + numNint) / 2);
